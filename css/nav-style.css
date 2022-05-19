@@ -1,0 +1,33 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#logo {
+    margin: auto auto auto 0;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+nav {
+    background-color: salmon;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
