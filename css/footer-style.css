@@ -1,0 +1,33 @@
+footer {
+    background-color: #1A3C40;
+    display: flex;
+    color: white;
+    flex-direction: row;
+}
+
+footer div {
+    width: 50%;
+    text-align: left;
+    padding: 30px 55px;
+    float: left;
+}
+
+footer div span {
+    color: rgb(110, 110, 110);
+    font-weight: bold;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+}
