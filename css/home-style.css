@@ -6,7 +6,8 @@ main {
 
 .card {
     padding: 10px;
-    background-color:salmon ;
+    color: white;
+    background-color: #1A3C40;
     display: flex;
     flex-direction: column;
     justify-content: center;

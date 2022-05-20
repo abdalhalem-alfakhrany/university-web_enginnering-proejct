@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SignUp</title>
     <link rel="stylesheet" href="../css/nav-style.css">
-    <link rel="stylesheet" href="../css/signup-style.css">
+    <link rel="stylesheet" href="../css/form-style.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
             <div class="input-group">
                 <label for="email"> Email</label>
                 <input name="email" value="" type="email">
-                <span>
+                <span class="field-check">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="100%" fill="currentColor"
                         class="bi bi-check-circle" viewBox="0 0 16 16">
                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -38,7 +38,7 @@
             <div class="input-group">
                 <label for="username" style="white-space:nowrap ;"> User Name</label>
                 <input name="username" type="text">
-                <span>
+                <span class="field-check">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="100%" fill="currentColor"
                         class="bi bi-check-circle" viewBox="0 0 16 16">
                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -50,7 +50,7 @@
             <div class="input-group">
                 <label for="password"> Password</label>
                 <input name="password" type="password">
-                <span>
+                <span class="field-check">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="100%" fill="currentColor"
                         class="bi bi-check-circle" viewBox="0 0 16 16">
                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -62,7 +62,7 @@
             <div class="input-group">
                 <label for="password-repeate" style="white-space:nowrap ;">Repeate Password</label>
                 <input name="password-repeate" type="password">
-                <span>
+                <span class="field-check">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="100%" fill="currentColor"
                         class="bi bi-check-circle" viewBox="0 0 16 16">
                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -72,11 +72,12 @@
                 </span>
             </div>
             <div class="input-group">
-                <input type="submit" id="form-submit">
+                <button type="submit" id="form-submit">Sing Up</button>
             </div>
         </form>
     </main>
 </body>
 <script src="../lib/Jquery/jquery-3.6.0.min.js"></script>
 <script src="../js/singup.js"></script>
+
 </html>

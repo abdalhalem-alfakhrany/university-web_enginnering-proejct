@@ -3,6 +3,8 @@ html {
     padding: 0;
     margin: 0;
     width: 100%;
+    background-color: #005555;
+
 }
 
 #logo {
@@ -12,8 +14,9 @@ html {
 }
 
 nav {
-    background-color: salmon;
+    background-color: #1A3C40;
     display: flex;
+    color: white;
     flex-direction: row;
 }
 
